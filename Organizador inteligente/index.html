@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <meta charset="UTF-8">
+    <Title>TaskFlow</Title>
+    <link rel="shortcut icon" href="../Organizador inteligente/imgs/correto.png" type="image/png">
+    <link rel="stylesheet" href="../../Aplicações web/Organizador inteligente/css.css">
+    <link rel="stylesheet" href="../css.css">
+</header>
+
+<body>
+    <div id="sidebar">
+        <a href="">
+        <div id="logo">
+            <img id="boxcorreta" src="imgs/correto.png">
+            <div id="logo2">
+                <h2 id="TaskFlow">TaskFlow</h2>
+                <span style="color: #8b91A1;">Organizador inteligente</span>
+            </div>
+        </div>
+        </a>
+
+        <div class="linha"></div>
+        
+        <div id="botoes-sidebar">
+                
+            <div class="botao-lateral" onclick="mudarPagina('inicio', this)">
+                <img class="imagens" src="imgs/casa.png" data-icone="casa">
+                <h3 class="texto-botoes">Início</h3>
+            </div>
+          
+            <div class="botao-lateral" onclick="mudarPagina('tarefas', this)">
+                <img class="imagens" src="imgs/lista-de-tarefas.png" data-icone="lista-de-tarefas">
+                <h3 class="texto-botoes">Tarefas</h3>
+            </div>
+            
+            <div class="botao-lateral" onclick="mudarPagina('projetos', this)">
+                <img class="imagens" src="imgs/pasta-aberta.png" data-icone="pasta-aberta">
+                <h3 class="texto-botoes">Projetos</h3>
+            </div>
+            
+            <div class="botao-lateral" onclick="mudarPagina('calendario', this)">
+                <img class="imagens" src="imgs/calendario.png" data-icone="calendario">
+                <h3 class="texto-botoes">Calendário</h3>
+            </div>
+            
+            <div class="linha"></div>
+
+            <div class="botao-lateral" onclick="mudarPagina('sobre', this)">
+                <img class="imagens" src="imgs/do-utilizador.png" data-icone="do-utilizador">
+                <h3 class="texto-botoes">Sobre Mim</h3>
+            </div>
+        </div>
+    </div>
+
+    <main id="conteudo">
+        <h1 class="titulo-inicio">Bem-Vindo!</h1>
+        <div class="linha"></div>
+        <br/>
+        <span>💜 Resumo do site TaskFlow
+            <br/>
+            <br/>
+            O TaskFlow é um site de organização pessoal desenvolvido com HTML, CSS e JavaScript, com o objetivo de ajudar o usuário a organizar suas tarefas, acompanhar projetos e visualizar seus compromissos em uma interface simples e moderna.
+            <br/>
+            <br/>
+            🎨 Identidade visual
+            <br/>
+            - Nome: TaskFlow
+            <br/>
+            - Estilo: moderno, minimalista e tecnológico.
+            <br/>
+            - Cor de fundo: azul-marinho muito escuro (#0B0F19).
+            <br/>
+            - Cor de destaque: roxo (#7B2CFF).
+            <br/>
+            - Cores complementares: cinza-claro (#E2E5EA) e roxo suave (#A875FF).
+            <br/>
+            - Fonte: Poppins.
+            <br/>
+            - Layout: barra lateral fixa à esquerda e área de conteúdo à direita.
+            <br/>
+            <br/>
+            ⚙️ Funcionalidades e páginas
+            <br/>
+            - Início: página inicial com uma mensagem de boas-vindas e espaço para informações gerais.
+            <br/>
+            - Tarefas: área destinada à organização das tarefas.
+            <br/>
+            - Projetos: página para acompanhar projetos pessoais.
+            <br/>
+            - Calendário: espaço para visualizar compromissos e datas importantes.
+            <br/>
+            - Sobre Mim: página para apresentar informações sobre o usuário.
+            <br/>
+            <br/>
+            A navegação acontece sem precisar recarregar a página: o JavaScript altera o conteúdo exibido conforme o botão selecionado. Os botões também possuem destaque roxo e trocam seus ícones entre versões normais e selecionadas.
+            <br/>
+            <br/>
+            💻 Tecnologias utilizadas
+            <br/>
+            - HTML: estrutura das páginas e dos elementos.
+            <br/>
+            - CSS: cores, fontes, espaçamentos, efeitos e aparência da interface.
+            <br/>
+            - JavaScript: navegação entre páginas, seleção dos botões e troca dos ícones.
+            <br/>
+            - Imagens PNG: logotipo e ícones da barra lateral.
+            <br/>
+            <br/>
+            🎯 Objetivo do projeto
+            Criar um organizador pessoal intuitivo, visualmente agradável e fácil de utilizar, centralizando tarefas, projetos e compromissos em um único lugar.</span> 
+    </main>
+
+    <script src="jsGPT.js"></script>
+</body>
+</html>
